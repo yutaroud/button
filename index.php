@@ -1,6 +1,6 @@
 <HTML lang="ja">
 <HEAD>
-    <TITLE>我らのO-書店～燃やせ！～</TITLE>
+    <TITLE>我らのO-書店～燃やせ！?～</TITLE>
     <link rel="stylesheet" href="css/o.css" type="text/css">
     <SCRIPT language="JavaScript">
         <!--
