@@ -50,6 +50,29 @@
 <INPUT type="button" value="爆発させる" onclick="pic1();sound();sound2()">
 <p>※サウンドが流れるので注意してね。</p>
 
+
+<p>---test---</p>
+<?php
+
+$file = "number.php";
+$fp = fopen ( $file,"r" );
+$now = fgets ( $fp );
+fclose ( $fp );
+$now ++;
+$fp = fopen ( $file, "w" );
+fputs ( $fp, $now );
+fclose ( $fp);
+?>
+<form action="index.php" method="get">
+
+    <input type="submit" value="クリック">
+<p>爆発された回数</p>
+    合計<input type="button" name="number" value="<?= $now ?>" onclick="pic1();sound();sound2()">
+
+</form>
+
+<p>---test---</p>
+
 <!-- 音声ファイルの読み込み 9〜10行目にURLを指定 -->
 <audio id="sound-file" preload="auto">
     <source src="music/bakuha.mp3" type="audio/mp3">
