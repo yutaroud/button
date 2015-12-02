@@ -260,3 +260,41 @@ h6 { margin-top: 2em; }
     text-decoration: none;
     color: #ccc;
 }
+
+/* SmartPhone用 ウィンドウ幅が0〜479pxの場合に適用する */
+
+@media screen and ( max-width:479px )
+{
+    /* ボディ */
+    body
+    {
+        font-size: 13px ;	/* 文字サイズ */
+
+    }
+
+    #header
+    {
+
+        border-bottom: 3px solid #888 ;		/* 枠線 */
+        text-align: center ;				/* テキスト、画像の真ん中寄せ */
+        padding: 1em 0 ;					/* 上下の余白 */
+        margin-bottom: 2em ;				/* 他のブロックとのスペース */
+        background: url(../img/bg-header.jpg) no-repeat 0 0;
+    }
+    #wrapper
+    {
+        width: auto;
+        margin: 0 ;			/* スペース */
+        padding: 0 10px;		/* 余白 */
+        line-height: 1 ;	/* 行の高さ */
+    }
+    #footer
+    {
+        width: auto;
+    }
+    img{
+        max-width: 90% ;		/* 横幅の90% */
+        height: auto ;			/* 縦幅を自動調整 */
+    }
+}
+

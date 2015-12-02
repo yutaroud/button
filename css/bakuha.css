@@ -42,7 +42,7 @@ body {
     font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
     padding: 0;
     margin: 0;
-    background: url(../img/firefire.jpg)  no-repeat 0 0 ;
+    background: url(../img/firefire.jpg)  ;
 }
 
 /*-- �S�̂��͂�ł��܂� --*/
@@ -260,4 +260,43 @@ h6 { margin-top: 2em; }
 #cds a:hover {
     text-decoration: none;
     color: #ccc;
+}
+
+/* SmartPhone用 ウィンドウ幅が0〜479pxの場合に適用する */
+@media screen and ( max-width:479px )
+
+{
+    /* ボディ */
+    body
+    {
+        font-size: 13px ;	/* 文字サイズ */
+        background: url(../img/smartfire.png) no-repeat;
+
+    }
+
+    #header
+    {
+
+        border-bottom: 3px solid #888 ;		/* 枠線 */
+        text-align: center ;				/* テキスト、画像の真ん中寄せ */
+        padding: 1em 0 ;					/* 上下の余白 */
+        margin-bottom: 2em ;				/* 他のブロックとのスペース */
+
+
+    }
+    #wrapper
+    {
+        width: auto;
+        margin: 0 ;			/* スペース */
+        padding: 0 10px;		/* 余白 */
+        line-height: 1 ;	/* 行の高さ */
+    }
+    #footer
+    {
+        width: auto;
+    }
+    img{
+        max-width: 90% ;		/* 横幅の90% */
+        height: auto ;			/* 縦幅を自動調整 */
+    }
 }
