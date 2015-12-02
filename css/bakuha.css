@@ -42,7 +42,7 @@ body {
     font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
     padding: 0;
     margin: 0;
-    background: url(../img/firefire.jpg)  ;
+    background: url(../img/firefire.jpg) no-repeat 0 0;
 }
 
 /*-- �S�̂��͂�ł��܂� --*/
@@ -270,7 +270,7 @@ h6 { margin-top: 2em; }
     body
     {
         font-size: 13px ;	/* 文字サイズ */
-        background: url(../img/smartfire.png) no-repeat;
+        background: url(../img/smartfire.png) no-repeat 0 0;
 
     }
 

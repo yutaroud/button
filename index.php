@@ -1,7 +1,7 @@
 <HTML lang="ja">
 <HEAD>
     <TITLE>我らのO-書店～燃やせ！?～</TITLE>
-    <meta name="viewport" content"width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/o.css" type="text/css" id="css_file">
     <SCRIPT language="JavaScript">
         <!--
